@@ -148,7 +148,6 @@ else:
 
 
 # Questão 10 - Faça um programa que calcule a conta de energia elétrica, solicitando apenas o número de kW/h e levando em consideração:
-
 # a)     O preço do kW/h é R$ 0,56.
 # b)     O valor da Geração de energia é 41% do valor do consumo.
 # c)     O valor de imposto é de 22,52% do valor do consumo.
