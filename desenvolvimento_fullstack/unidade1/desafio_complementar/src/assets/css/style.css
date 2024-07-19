@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+.background-image::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/naruto-manga-pictures-t44lxgnk8jlfh1ab.jpg");
+  opacity: 0.3;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 6rem 0;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 540px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+  margin: 1.5rem 0;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.image {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.title1,
+.title2,
+.title3 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.title1 {
+  color: #ff0000;
+}
+.title2 {
+  color: #ff8c00;
+}
+
+.title3 {
+  color: #4682b4;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.text > p {
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+/* --------------  TABLET ----------------  */
+@media (max-width: 1024px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* --------------  MOBILE ----------------  */
+@media (max-width: 675px) {
+}
