@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Aula Síncrona</title>
+
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="src/js/index.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="image">
+      <div>
+        <img src="src/images/computer-login.png" alt="imagem de cadastro em um notebook" />
+      </div>
+    </div>
+    <div class="form" id="form-login">
+      <p>Restic36</p>
+      <h2>Trilha 2 - Fullstack</h2>
+      <div class="buttons">
+        <button class="entry" id="btn-open">Entrar</button>
+        <button class="sign-in" id="btn-register" onclick="transitionForm()">Cadastro</button>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="exemplo@gmail.com" />
+        <input type="password" placeholder="Senha" />
+      </div>
+      <div class="submit">
+        <button>Enviar</button>
+      </div>
+    </div>
+    <div class="form hidden" id="form-register">
+      <p id="second-form">Restic36</p>
+      <h2>Trilha 2 - Fullstack</h2>
+      <div class="buttons" id="buttons">
+        <button class="sign-in" id="btn-open" onclick="transitionForm()">Entrar</button>
+        <button class="entry" id="btn-register">Cadastro</button>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="Nome" />
+        <input type="text" placeholder="E-mail" />
+        <input type="password" placeholder="Senha" />
+        <input type="password" placeholder="Confirme a senha" />
+      </div>
+      <div class="submit">
+        <button>Enviar</button>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
